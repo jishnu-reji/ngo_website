@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Ephesis&family=Nova+Square&family=PT+Sans&family=Quicksand&family=Roboto&family=Smooch+Sans:wght@800&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.container-fluid{
+    padding: 0 !important;
+}
+.hed{
+    border-bottom: 1px solid black;
+}
+
+.foot{
+    padding: 60px 0;
+}
+footer{
+    color: white;
+}
+footer h5{
+    list-style-type: none;
+    font-size: 14px;
+    font-weight: 600;
+}
+footer li{
+    list-style-type: none;
+    margin: 10px 0;
+    font-size: 12px;
+    font-weight: 100;
+}
+footer h3{
+    font-size: 40px;
+    font-weight: 600;
+}
+.mail{
+    margin-left: 50px;
+}
+.m1::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: grey !important;
+    opacity: 1; /* Firefox */
+}
+
+/* -----------------------------------------------home page--------------------------------------------------- */
+
+.banner{
+    background-image: url('./images/bgmain.jpg');
+    height: auto;
+}
+.banner img{
+    width: 25px;
+}
+.hh1{
+    padding-top:7%;
+    padding-bottom: 3%;
+    color: white;
+    font-size: 64px;
+    font-weight: 700;
+}
+.banp{
+    margin-top: 12%;
+    padding-bottom: 4%;
+}
+.hor{
+    border-top: 1px solid white;
+    width: 65%;
+    margin-top: 1%;
+}
+.c{
+    border-top: 1px solid black;
+    width: 85%;
+    margin-top: 1%;
+}
+.he{
+    font-size: 250%;
+}
+.hh{
+    font-weight: 700;
+}
+.r2{
+    background-color: #FCEDC6;
+}
+.hrs{
+    border-top: 3px solid black;
+    width: 15%;
+    margin-top: 10%;
+    margin-right: 2%;
+}
+.card{
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.card1{
+    background-image: linear-gradient(rgba(0,0,0,0.527),rgba(0,0,0,0.5)),url('./images/unsplash_cVEOh_JJmEE.png');
+}
+.card2{
+    background-image: linear-gradient(rgba(0,0,0,0.527),rgba(0,0,0,0.5)),url('./images/unsplash_iIGovKRty8g.png');
+}
+.card3{
+    background-image: linear-gradient(rgba(0,0,0,0.527),rgba(0,0,0,0.5)),url('./images/unsplash_1-aA2Fadydc.png');
+}
+.pp{
+    margin-bottom: 19%;
+}
+.card button{
+    margin: 13% 0;
+}
+.r4 img{
+    width: 63%;
+    margin-left: 133px;
+}
+#pg{
+    color: gray;
+}
+.r4 p{
+    color: white;
+    font-size: 90%;
+}
+.sq{
+    height: 15px;
+    width: 15px;
+    margin-top: 4px;
+    margin-right: 5px;
+}
+.sq1{
+    background-color: #bef3c0;
+}
+.sq2{
+    background-color: #ac94f1;
+}
+.sq3{
+    background-color: #fff0ca;
+}
+.sq4{
+    background-color: #f9cf64;
+}
+.sq5{
+    background-color: #f38fbf;
+}
+.botban{
+    background-image: url(./images/banbot.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.botban h2{
+    padding-top: 8%;
+}
+
+.c2{
+    border-top: 1px solid black;
+    width: 90%;
+    margin-top: 1%;
+}
+
+.eve{
+    background-color: #F2C94C;
+    border-radius: 15px;
+}
+.pad{
+    padding-left: 0% !important;
+}
+
+
+@media(max-width:450px){
+    .vi{
+        align-items: flex-start;
+    }
+    .vi img{
+        width: 100%;
+    }
+    .r4 img{
+        width: 63%;
+        margin-left: 0;
+    }
+}
+
+/* -----------------------------------------------about us page--------------------------------------------------- */
+
+.hra{
+    border-top: 3px solid black;
+    width: 11%;
+    margin-top: 1%;
+    margin-right: 2%;
+}
+.video1{
+    background-image: url(./images/BG.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    padding: 11%;
+}
+.under{
+    background-color: #FCEDC6;
+}
+.award h2{
+    text-align: center;
+}
+.aw{
+    text-align: center;
+}
+.ra1{
+    background-color: #F2C94C;
+    border-radius: 15px;
+}
+.ra1 img{
+    width: 100%;
+    
+}
+.award p{
+    text-align: center;
+}
+.amg img{
+    width: 100%;   
+}
+.sos{
+    padding-left: 28%;
+}
+
+/* -----------------------------------------------what we do page--------------------------------------------------- */
+
+.what{
+    background-color: #FCEDC6;
+}
+
+/* -----------------------------------------------media page--------------------------------------------------- */
+
+.ra2{
+    background-color: white;
+    border-radius: 15px;
+}
+
+/* -----------------------------------------------contact page--------------------------------------------------- */
+
+.hc{
+    font-size: 50px;
+}
+.fm{
+    border-bottom: 2px solid black !important;
+    
+}
+.sw{
+    text-align: center;
+}
+.map img{
+    width: 100%;
+}
+
+/* -----------------------------------------------donate page--------------------------------------------------- */
+
+.don{
+    background-color: #FCEDC6;
+}
+.don1{
+    border-bottom: 2px solid rgba(128, 128, 128, 0.615);
+}
